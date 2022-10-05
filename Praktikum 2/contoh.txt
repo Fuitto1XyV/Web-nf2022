@@ -1,0 +1,10 @@
+<u> Untuk Under line
+<s> untuk coretan tengah
+<img> untuk mengunggah gambar
+<b> untuk bold 
+<h3> untuk alignment
+<ol> angka berurut 
+<ul> titk berurut 
+<li> Untuk memasukan ordered/unordered
+alt untuk mendeskripsikan gambar yg tidak ter-load
+src adalah source untuk mencari 
