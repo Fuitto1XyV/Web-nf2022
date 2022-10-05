@@ -1,0 +1,16 @@
+<u> Untuk Under line
+<s> untuk coretan tengah
+<img> untuk mengunggah gambar
+<b> untuk bold 
+<h3> untuk alignment
+<ol> angka berurut 
+<ul> titk berurut 
+<li> Untuk memasukan ordered/unordered
+<hr> baris horizontal
+alt untuk mendeskripsikan gambar yg tidak ter-load
+src adalah source untuk mencari 
+cellpading untuk membuat table menjadi lega
+border untuk membuat garis luar di dalam table
+colspan untuk menggabungkan baris horizontal/baris
+rowspan untuk menggabungkan kolom vertical/ kolom
+table untuk mengatur baris dan kolom seperti excel
