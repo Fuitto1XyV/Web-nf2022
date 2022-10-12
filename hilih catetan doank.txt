@@ -1,0 +1,16 @@
+<form> untuk membuat form untuk website
+table>tr*5>td* = > untuk membuat dalam text tersebut
+			* untuk menduplikat atribut
+<input> untuk memasukan sesuai ke form tersebut
+<textarea. untuk memasukan kata seperti input tetapi dia vertikal
+maxlenght untuk membuat maksimal kata yg bisa di input 
+placeholder untuk memasukan teks yg bersifat sementara di dalam input...untuk memberi tanda/peringatan di input
+radio <input type"SESUAI"> Untuk membuat colom pemilihan bulat tapi tetap
+<fieldset> untuk membuat kotak 
+<legend> untuk membuat text di dalam kotak
+name="NAMA APA AJA" untuk mmebuat <input type="radio"> menjadi terpilih salah satu 
+id="SESUAI NAMA PEMILIHAN" untuk membuat <input type="radio"> menjadi terpilih dengan teks tersebut
+<label for="SESUAI NAMA PEMILIHAN"> untuk membuat pemilihn sesuai
+checkbox untuk <input type"SESUAI"> Untuk membuat colom pemilihan/Checklist Kotak 
+<form action="HTML LU"> untuk masuk ke html selanjutnya dari button atau <input type="submit"
+value untuk <input type"
