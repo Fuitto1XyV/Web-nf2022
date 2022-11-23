@@ -1,0 +1,22 @@
+img {
+    width: 4rem;
+}
+
+header {
+    background-color: orangered;
+    display: flex;
+    padding: 0.5rem 1.5rem;
+    justify-content: space-between;
+}
+body {
+    margin: 0;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header ul li {
+    margin: 0 1rem;
+}
