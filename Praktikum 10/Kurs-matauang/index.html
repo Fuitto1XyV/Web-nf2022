@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs Converter</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Kurs Rupiah - Mata Uang Asing</legend>
+
+<table>
+    <tr>
+        <td>Nilai awal</td>
+        <td>Dari</td>
+        <td>Nilai Rupiah</td>
+    </tr>
+    <tr>
+        <td>
+            <input type="number" id="nilaiawal" onchange="convert()">
+        </td>
+        <td>
+            <select id="selectkurs" onchange="convert()">
+                <option value="0">---Pilih---</option>
+                <option value="USD">Dolar US</option>
+                <option value="SGD">Dolar Singapore</option>
+                <option value="Ringgit">Ringgit Malaysia</option>
+                <option value="Yen">Yen Jepang</option>
+                <option value="EURO">EURO</option>
+                <option value="Riyal">Riyal Arab Saudi</option>
+
+            </select>
+        </td>
+        <td>
+            <input type="text" id="nilairupiah" readonly>
+        </td>
+    </tr>
+</table>
+
+    </fieldset>
+
+    <script>
+        function convert() {
+            let inawal = document.getElementById("nilaiawal").value;
+            let kurs = document.getElementById("selectkurs").value;
+            let hasil;
+            
+            if (kurs == "USD"){
+                hasil = inawal * 9915;
+            } else if (kurs == "SGD"){
+                hasil = inawal * 13472
+            } else if (kurs == "Ringgi") {
+                hasil = inawal * 874;
+            } else if (kurs == "Yen") {
+                hasil = inawal * 120;
+            } else if (kurs == "EURO") {
+                hasil = inawal *15888;
+            } else if (kurs == "Riyal") {
+                hasil = inawal *3592;
+            } else {
+                hasil = 0
+            }
+
+            document.getElementById("nilairupiah").value = String("Rp. "+ hasil);
+        }
+    </script>
+</body>
+</html>
